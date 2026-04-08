@@ -5,6 +5,7 @@ def ngg():
 
     print("Welcome to the Number Guessing Game!")
     print("I have selected a number between 1 and 10. Can you guess it?")
+    print("You have 5 attempts to guess the number correctly. Good luck!")
     while True:
       try:
         guess = int(input("enter the nubrer: "))
